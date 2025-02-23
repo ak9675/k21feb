@@ -17,9 +17,7 @@ resource "aws_s3_bucket" "mybuck" {
 
 }
 
-resource "aws_iam_user" "myuser" {
-  name = "cloud-user"
-}
+
 
 resource "aws_vpc" "myvpc" {
   cidr_block = "10.0.0.0/24"
