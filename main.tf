@@ -29,6 +29,3 @@ resource "aws_vpc" "myvpc" {
   }
 }
 
-variable "user-inp" {
-  description = "Enter your working env dev/text/prod"
-}
